@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritik's Fitness center</title>
+    <style>
+        body {
+            background: url("AdobeStock_180271030_Preview.jpeg");
+        }
+
+        .Left {
+
+            position: absolute;
+            /* border: 2px solid red; */
+            border-radius: 4px;
+            left: 34px;
+            top: 20px;
+
+        }
+
+        .Left img {
+            width: 125px;
+        }
+
+        .Left div {
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .Left div:hover {
+            color: grey;
+            text-decoration: underline;
+            cursor: pointer;
+
+        }
+
+        .Mid {
+            display: block;
+            width: 40%;
+            margin: 18px auto;
+            /* border: 2px solid darkgreen; */
+            border-radius: 20px;
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar li a {
+            padding: 10px;
+            text-decoration: none;
+            font-size: 25px;
+            font-weight: 500;
+            color: darksalmon;
+        }
+
+        .navbar li a:hover {
+            color: darkturquoise;
+            text-decoration: underline;
+        }
+
+        .Right {
+            position: absolute;
+            /* border: 2px solid rebeccapurple; */
+            border-radius: 4px;
+            right: 34px;
+            top: 20px;
+        }
+
+        .btn {
+            margin: 0px 9px;
+            padding: 4px 14px;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            text-decoration: underline;
+            color: tomato;
+        }
+
+        .container {
+            /* border: 6px solid darkviolet; */
+            margin: 100px 80px;
+            padding: 75px;
+            width: 33%;
+            border-radius: 19px;
+        }
+
+        .form-group input {
+            width: 235px;
+            padding: 10px;
+            /* border: 2px solid blueviolet; */
+            margin: 9px auto;
+            font-size: 25px;
+            border-radius: 22px;
+        }
+
+        .container button {
+            width: 233px;
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="Left">
+            <img src="AdobeStock_374103308_Preview.jpeg" alt="">
+            <div>Ritik's Fitness</div>
+        </div>
+
+        <div class="Mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="Right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Dhanbad</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <button class="btn">
+                submit
+            </button>
+        </form>
+    </div>
+</body>
+
+</html>
